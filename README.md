@@ -1,12 +1,36 @@
-# netlfix_data_analysis
-- Cleaned and preprocessed the Netflix dataset, handling missing values, duplicates, and date formatting, performed
-exploratory data analysis to uncover insights into content releases, viewer ratings, and genre distributions.
-- Analyzed & visualized content patterns in Netflix’s movie & TV show catalog, including country-specific trends,
-director performance, & rating distributions, using statistical methods & data visualization tools like Matplotlib
-- data looks like this -
-  ![image](https://github.com/user-attachments/assets/434735ad-916f-4c5e-8a5b-8f0ad9f92b66)
+# Netflix Data Analysis
 
-with column names as - Index(['Show_Id', 'Category', 'Title', 'Director', 'Cast', 'Country', 'Release_Date', 'Rating', 'Duration', 'Type', 'Description'],dtype='object')
+## Project Highlights
+- **Data Cleaning & Preprocessing**: 
+  - Cleaned and preprocessed the Netflix dataset by handling missing values, removing duplicates, and reformatting date columns.
+  - Ensured the dataset was ready for analysis with minimal data inconsistencies.
+
+- **Exploratory Data Analysis (EDA)**: 
+  - Performed detailed analysis to uncover insights, including:
+    - Patterns in content releases across genres and countries.
+    - Viewer ratings and their distribution.
+    - Genre distributions and country-specific trends.
+    - Director performance and popular cast members.
+  
+- **Data Visualization**:
+  - Visualized key patterns using tools like Matplotlib to present trends in Netflix’s movie and TV show catalog.
+  - Used statistical methods to identify significant content trends.
+
+---
+
+## Dataset Overview
+### Dataset Snapshot
+![Netflix Dataset Snapshot](https://github.com/user-attachments/assets/5afcd8c0-3975-49bf-8c5d-db034e30e892)
+
+### Column Names
+```plaintext
+Index(['Show_Id', 'Category', 'Title', 'Director', 'Cast', 'Country', 
+
+       'Release_Date', 'Rating', 'Duration', 'Type', 'Description'],
+      dtype='object')
+
+
+and details as- 
 
 RangeIndex: 7789 entries, 0 to 7788
 Data columns (total 11 columns):
@@ -25,3 +49,8 @@ Data columns (total 11 columns):
  10  Description   7789 non-null   object
 dtypes: object(11)
 memory usage: 669.5+ KB
+
+
+- rough idea of frequency of null values from graph 
+![image](https://github.com/user-attachments/assets/76c929d8-c84b-461a-a49b-7a69ad4d0956)
+
