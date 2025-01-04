@@ -23,7 +23,7 @@
 ![Netflix Dataset Snapshot](https://github.com/user-attachments/assets/5afcd8c0-3975-49bf-8c5d-db034e30e892)
 ```plaintext
 
-### Column Names
+Column Names
 Index(['Show_Id', 'Category', 'Title', 'Director', 'Cast', 'Country', 'Release_Date', 'Rating', 'Duration', 'Type', 'Description'], dtype='object')
 
 
