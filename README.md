@@ -24,14 +24,10 @@
 
 ### Column Names
 ```plaintext
-Index(['Show_Id', 'Category', 'Title', 'Director', 'Cast', 'Country', 
-
-       'Release_Date', 'Rating', 'Duration', 'Type', 'Description'],
-      dtype='object')
+Index(['Show_Id', 'Category', 'Title', 'Director', 'Cast', 'Country', 'Release_Date', 'Rating', 'Duration', 'Type', 'Description'], dtype='object')
 
 
 and details as- 
-
 RangeIndex: 7789 entries, 0 to 7788
 Data columns (total 11 columns):
  #   Column        Non-Null Count  Dtype 
@@ -49,6 +45,7 @@ Data columns (total 11 columns):
  10  Description   7789 non-null   object
 dtypes: object(11)
 memory usage: 669.5+ KB
+```
 
 
 - rough idea of frequency of null values from graph 
