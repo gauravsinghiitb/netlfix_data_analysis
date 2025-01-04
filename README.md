@@ -21,9 +21,9 @@
 ## Dataset Overview
 ### Dataset Snapshot
 ![Netflix Dataset Snapshot](https://github.com/user-attachments/assets/5afcd8c0-3975-49bf-8c5d-db034e30e892)
+```plaintext
 
 ### Column Names
-```plaintext
 Index(['Show_Id', 'Category', 'Title', 'Director', 'Cast', 'Country', 'Release_Date', 'Rating', 'Duration', 'Type', 'Description'], dtype='object')
 
 
@@ -48,6 +48,7 @@ memory usage: 669.5+ KB
 ```
 
 
-- rough idea of frequency of null values from graph 
-![image](https://github.com/user-attachments/assets/76c929d8-c84b-461a-a49b-7a69ad4d0956)
+- rough idea of frequency of null values from graph
+
+- ![image](https://github.com/user-attachments/assets/76c929d8-c84b-461a-a49b-7a69ad4d0956)
 
